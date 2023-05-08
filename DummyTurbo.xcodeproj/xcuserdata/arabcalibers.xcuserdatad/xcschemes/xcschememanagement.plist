@@ -3,11 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>SchemeUserState</key>
+	<dict/>
+	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>DummyTurbo.xcscheme_^#shared#^_</key>
+		<key>CC1B30A42A08DF36006E5EB7</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CC1B30BA2A08DF38006E5EB7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CC1B30C42A08DF38006E5EB7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
