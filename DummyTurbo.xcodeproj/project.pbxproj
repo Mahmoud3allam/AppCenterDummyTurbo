@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02A38875FB036B6C915A62AC /* Pods_DummyTurboTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174D4649976553187DA89F8E /* Pods_DummyTurboTests.framework */; };
+		87457A59984BD434CE03FFC4 /* Pods_DummyTurbo_DummyTurboUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8965E1DBF31DEF17314F77F /* Pods_DummyTurbo_DummyTurboUITests.framework */; };
 		CC1B30A92A08DF36006E5EB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1B30A82A08DF36006E5EB7 /* AppDelegate.swift */; };
 		CC1B30AB2A08DF36006E5EB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1B30AA2A08DF36006E5EB7 /* SceneDelegate.swift */; };
 		CC1B30AD2A08DF36006E5EB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1B30AC2A08DF36006E5EB7 /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		CC1B30C02A08DF38006E5EB7 /* DummyTurboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1B30BF2A08DF38006E5EB7 /* DummyTurboTests.swift */; };
 		CC1B30CA2A08DF38006E5EB7 /* DummyTurboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1B30C92A08DF38006E5EB7 /* DummyTurboUITests.swift */; };
 		CC1B30CC2A08DF38006E5EB7 /* DummyTurboUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1B30CB2A08DF38006E5EB7 /* DummyTurboUITestsLaunchTests.swift */; };
+		D5BA3400289901A0BE8CBD83 /* Pods_DummyTurbo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F65D5070CA778B112392F9 /* Pods_DummyTurbo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13F65D5070CA778B112392F9 /* Pods_DummyTurbo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DummyTurbo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		174D4649976553187DA89F8E /* Pods_DummyTurboTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DummyTurboTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2370A864AD89AF2E70EF95B0 /* Pods-DummyTurbo-DummyTurboUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DummyTurbo-DummyTurboUITests.release.xcconfig"; path = "Target Support Files/Pods-DummyTurbo-DummyTurboUITests/Pods-DummyTurbo-DummyTurboUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3364775AE64D81928F2DB891 /* Pods-DummyTurboTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DummyTurboTests.debug.xcconfig"; path = "Target Support Files/Pods-DummyTurboTests/Pods-DummyTurboTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C10120D2DE766369C06A6EB /* Pods-DummyTurbo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DummyTurbo.debug.xcconfig"; path = "Target Support Files/Pods-DummyTurbo/Pods-DummyTurbo.debug.xcconfig"; sourceTree = "<group>"; };
+		7374417A75D61B3B5945A0BC /* Pods-DummyTurboTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DummyTurboTests.release.xcconfig"; path = "Target Support Files/Pods-DummyTurboTests/Pods-DummyTurboTests.release.xcconfig"; sourceTree = "<group>"; };
+		B51FA5670877FAFCB94129B9 /* Pods-DummyTurbo-DummyTurboUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DummyTurbo-DummyTurboUITests.debug.xcconfig"; path = "Target Support Files/Pods-DummyTurbo-DummyTurboUITests/Pods-DummyTurbo-DummyTurboUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CC1B30A52A08DF36006E5EB7 /* DummyTurbo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DummyTurbo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC1B30A82A08DF36006E5EB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC1B30AA2A08DF36006E5EB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		CC1B30C52A08DF38006E5EB7 /* DummyTurboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DummyTurboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC1B30C92A08DF38006E5EB7 /* DummyTurboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyTurboUITests.swift; sourceTree = "<group>"; };
 		CC1B30CB2A08DF38006E5EB7 /* DummyTurboUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyTurboUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E8965E1DBF31DEF17314F77F /* Pods_DummyTurbo_DummyTurboUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DummyTurbo_DummyTurboUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1562EB20053873D0DC3ACB1 /* Pods-DummyTurbo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DummyTurbo.release.xcconfig"; path = "Target Support Files/Pods-DummyTurbo/Pods-DummyTurbo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5BA3400289901A0BE8CBD83 /* Pods_DummyTurbo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02A38875FB036B6C915A62AC /* Pods_DummyTurboTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87457A59984BD434CE03FFC4 /* Pods_DummyTurbo_DummyTurboUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C0B8A92EEB687D1A3435A667 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C10120D2DE766369C06A6EB /* Pods-DummyTurbo.debug.xcconfig */,
+				F1562EB20053873D0DC3ACB1 /* Pods-DummyTurbo.release.xcconfig */,
+				B51FA5670877FAFCB94129B9 /* Pods-DummyTurbo-DummyTurboUITests.debug.xcconfig */,
+				2370A864AD89AF2E70EF95B0 /* Pods-DummyTurbo-DummyTurboUITests.release.xcconfig */,
+				3364775AE64D81928F2DB891 /* Pods-DummyTurboTests.debug.xcconfig */,
+				7374417A75D61B3B5945A0BC /* Pods-DummyTurboTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CC1B309C2A08DF36006E5EB7 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				CC1B30BE2A08DF38006E5EB7 /* DummyTurboTests */,
 				CC1B30C82A08DF38006E5EB7 /* DummyTurboUITests */,
 				CC1B30A62A08DF36006E5EB7 /* Products */,
+				C0B8A92EEB687D1A3435A667 /* Pods */,
+				E1965C735D99F37D26067F81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +158,16 @@
 			path = DummyTurboUITests;
 			sourceTree = "<group>";
 		};
+		E1965C735D99F37D26067F81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13F65D5070CA778B112392F9 /* Pods_DummyTurbo.framework */,
+				E8965E1DBF31DEF17314F77F /* Pods_DummyTurbo_DummyTurboUITests.framework */,
+				174D4649976553187DA89F8E /* Pods_DummyTurboTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC1B30CF2A08DF38006E5EB7 /* Build configuration list for PBXNativeTarget "DummyTurbo" */;
 			buildPhases = (
+				294A51060644721E30F89A1C /* [CP] Check Pods Manifest.lock */,
 				CC1B30A12A08DF36006E5EB7 /* Sources */,
 				CC1B30A22A08DF36006E5EB7 /* Frameworks */,
 				CC1B30A32A08DF36006E5EB7 /* Resources */,
+				9ECC2E3FB26BE590B53D3D31 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC1B30D22A08DF38006E5EB7 /* Build configuration list for PBXNativeTarget "DummyTurboTests" */;
 			buildPhases = (
+				0BB856E6E47EF0D52B57ED31 /* [CP] Check Pods Manifest.lock */,
 				CC1B30B72A08DF38006E5EB7 /* Sources */,
 				CC1B30B82A08DF38006E5EB7 /* Frameworks */,
 				CC1B30B92A08DF38006E5EB7 /* Resources */,
@@ -169,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC1B30D52A08DF38006E5EB7 /* Build configuration list for PBXNativeTarget "DummyTurboUITests" */;
 			buildPhases = (
+				BEE078A834CF0455F58AF748 /* [CP] Check Pods Manifest.lock */,
 				CC1B30C12A08DF38006E5EB7 /* Sources */,
 				CC1B30C22A08DF38006E5EB7 /* Frameworks */,
 				CC1B30C32A08DF38006E5EB7 /* Resources */,
+				4D1EE298E8DD9FFF6CE841DE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BB856E6E47EF0D52B57ED31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DummyTurboTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		294A51060644721E30F89A1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DummyTurbo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D1EE298E8DD9FFF6CE841DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DummyTurbo-DummyTurboUITests/Pods-DummyTurbo-DummyTurboUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DummyTurbo-DummyTurboUITests/Pods-DummyTurbo-DummyTurboUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DummyTurbo-DummyTurboUITests/Pods-DummyTurbo-DummyTurboUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ECC2E3FB26BE590B53D3D31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DummyTurbo/Pods-DummyTurbo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DummyTurbo/Pods-DummyTurbo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DummyTurbo/Pods-DummyTurbo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEE078A834CF0455F58AF748 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DummyTurbo-DummyTurboUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CC1B30A12A08DF36006E5EB7 /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		CC1B30D02A08DF38006E5EB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C10120D2DE766369C06A6EB /* Pods-DummyTurbo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +610,7 @@
 		};
 		CC1B30D12A08DF38006E5EB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1562EB20053873D0DC3ACB1 /* Pods-DummyTurbo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +639,7 @@
 		};
 		CC1B30D32A08DF38006E5EB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3364775AE64D81928F2DB891 /* Pods-DummyTurboTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +660,7 @@
 		};
 		CC1B30D42A08DF38006E5EB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7374417A75D61B3B5945A0BC /* Pods-DummyTurboTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +681,7 @@
 		};
 		CC1B30D62A08DF38006E5EB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B51FA5670877FAFCB94129B9 /* Pods-DummyTurbo-DummyTurboUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +700,7 @@
 		};
 		CC1B30D72A08DF38006E5EB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2370A864AD89AF2E70EF95B0 /* Pods-DummyTurbo-DummyTurboUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
