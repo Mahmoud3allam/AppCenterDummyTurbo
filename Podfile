@@ -11,9 +11,5 @@ pod 'IQKeyboardManager', '6.5.0'
     inherit! :search_paths
     # Pods for testing
   end
-
-  target 'DummyTurboUITests' do
-    # Pods for testing
-  end
-
+  
 end
